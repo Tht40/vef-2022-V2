@@ -5,7 +5,7 @@ import { fileURLToPath } from 'url';
 import { isInvalid } from './lib/template-helpers.js';
 import { indexRouter } from './routes/index-routes.js';
 
-dotenv.config();
+dotenv.config(); /**ghehehe */
 
 const { PORT: port = 3000 } = process.env;
 
